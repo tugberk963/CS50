@@ -13,7 +13,7 @@ int main(void)
 
     for (int rows = 0; rows < height; rows++) // Creating rows till reaching desired height
     {
-        for (int blanks = height - rows; blanks >= 0; blanks --) // Usign blanks for left alignin blocks.
+        for (int blanks = height - rows; blanks >= 0; blanks --) // Usign blanks for left aligning blocks.
         {
             printf(" ");
         }
