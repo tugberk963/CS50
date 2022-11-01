@@ -11,11 +11,11 @@ int main(void)
     }
     while(height < 1); // While Height Less Than 1 --> Ask Again
 
-    for (int rows = 0; rows < height; rows++)   // Creating rows till reaching desired height
+    for (int rows = 0; rows < height; rows++) // Creating rows till reaching desired height
     {
         for (int blanks = height - rows; blanks >= 0; blanks --) // Usign blanks for left alignin blocks.
         {
-        printf(" ");
+            printf(" ");
         }
         for(int bricks = 0; bricks <= rows; bricks++) // Filling rows with bricks.
         {
